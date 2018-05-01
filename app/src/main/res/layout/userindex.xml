@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="368dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="注销" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="426dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上传旅游计划" />
+
+        <Button
+            android:id="@+id/but_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查看旅游计划" />
+
+        <Button
+            android:id="@+id/but_check_put"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查看推送计划" />
+
+        <Button
+            android:id="@+id/but_uploadfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上传视频" />
+
+        <Button
+            android:id="@+id/but_playvideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="播放视频" />
+
+        <Button
+            android:id="@+id/but_downloadpdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下载pdf" />
+
+        <Button
+            android:id="@+id/but_plantodb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下载计划到SQlite" />
+
+
+
+        <Button
+            android:id="@+id/but_chek_Db"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查看本地计划" />
+
+        <Button
+            android:id="@+id/but_upload_pdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上传pdf" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <paths  xmlns:android="http://schemas.android.com/apk/res/android">
+        <cache-path name="my_pdf" path=""/>
+        <external-cache-path name="my_e_pdf" path=""/>
+    </paths>
+</PreferenceScreen>
